@@ -7,8 +7,8 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
 
 # Setup instructions
 - #### Working with the notebook
-- All code boxes requring variable or filename entry will be marked with three stars *** at the top of the code block and three dots ... to represent areas where more than one variable may be specified. **Please don't forget to remove these before running the code.**
-- Before running the code, make sure to first run package import and all helper functions at the bottom of the notebook.
+-   - All code boxes requring variable or filename entry will be marked with three stars *** at the top of the code block and three dots ... to represent areas where more than one variable may be specified. **Please don't forget to remove these before running the code.**
+-   - Before running the code, make sure to first run package import and all helper functions at the bottom of the notebook.
 - #### Data compatibility and acquisition
     - This code will work for any market data ingested via Barchart to construct the target feature as well either Barchart or Oilworld physical commodity contract data for input features. 
     - In order to obtain the data pertaining to Oilworld data please contact XXX. The data should contain a monthly price column with timestamps as well as the following physical 1-month forward contract price provided as either floats or integers: 
