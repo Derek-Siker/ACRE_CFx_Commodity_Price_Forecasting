@@ -1,9 +1,9 @@
 # ACRE/CFx Commodity Price Forecasting Pipeline
 A plug-and-play notebook for commodity price forecasting that uses standard ML Pipeline template and data ingestion methods for features coming from Barchart and Oilworld.
 
-- #### Introduction
+# Introduction
 
-    - In this project, a number of tree-based regressors are deployed to predict the monthly price direction and concurrent median spot price of a chosen commodity contract over a select period of time (the client will need to specify the type of contract or averaging method across contracts that should be used). 
+- In this project, a number of tree-based regressors are deployed to predict the monthly price direction and concurrent median spot price of a chosen commodity contract over a select period of time (the client will need to specify the type of contract or averaging method across contracts that should be used). 
 
 # Setup instructions
 - #### Working with the notebook
