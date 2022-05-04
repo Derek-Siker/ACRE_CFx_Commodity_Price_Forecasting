@@ -22,8 +22,7 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
         -  Rape oil,Dutch, fob ex-mill	
         -  Corn oil, U.S., fob Midwest	
         -  Corn oil, U.S., fob Gulf	
-        -  Olive 
-        -  Oil,Spain,Extra Virgin	
+        -  Olive Oil,Spain,Extra Virgin	
         -  Palm oil crude, cif Rotterdam	
         -  Palm oil RBD, Mal, fob	
         -  Palm oil crude, 
