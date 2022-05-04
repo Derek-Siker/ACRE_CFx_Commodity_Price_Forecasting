@@ -7,9 +7,55 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
     - In this project, a number of tree-based regressors are deployed to predict the monthly price direction and concurrent median spot price of a chosen commodity contract over a select period of time (the client will need to specify the type of contract or averaging method across contracts that should be used). 
 
 
-- #### Data compatibility
+- #### Data compatibility and acquisition
 
-    - This code will work for any market data ingested via Barchart to construct the target feature as well either Barchart or Oilworld physical contract data for input features. 
+    - This code will work for any market data ingested via Barchart to construct the target feature as well either Barchart or Oilworld physical commodity contract data for input features. 
+    - In order to obtain the data pertaining to Oilworld data please contact XXX. The data should contain a monthly price column with timestamps as well as the following physical 1-month forward contract price provided as either floats or integers: 
+        -  Soybean oil, US, fob Gulf	
+        -  Soybean oil,U.S.,fob Decatur	
+        -  Soybean oil,Dutch, fob ex-mill	
+        -  Soybean oil, Brazil, fob	
+        -  Soybean oil, Argentina, fob	Grnd'nt oil,any orig,cif Rott	
+        -  Sunoil, EU, fob N.W.Eur. ports	
+        -  Sunoil, Arg., fob	
+        -  Sunoil, fob Black Sea	
+        -  Rape oil,Dutch, fob ex-mill	
+        -  Corn oil, U.S., fob Midwest	
+        -  Corn oil, U.S., fob Gulf	
+        -  Olive 
+        -  Oil,Spain,Extra Virgin	
+        -  Palm oil crude, cif Rotterdam	
+        -  Palm oil RBD, Mal, fob	
+        -  Palm oil crude, 
+        -  Indonesia, fob	
+        -  Palm olein RBD, Mal, fob	
+        -  Palm olein RBD, Mal, cif Rott	
+        -  Palm stearin RBD, Mal fob	
+        -  Palm stearin RBD, Mal,cif Rott	
+        -  PFAD, Mal fob	
+        -  Palmkern oil,Mal/Indo,cif Rott	
+        -  Coconut oil,Phil/Indo,cif Rott	
+        -  Butter, Germany, 25kg, min 82%	
+        -  Lard, EU, unrefined, 0.5%	
+        -  Fish oil,any orig,cif N.W.Eur	
+        -  Fish oil, Peru, fob	Lin oil,any orig,ex-tank Rott	
+        -  Castor oil, ex-tank Rotterdam	
+        -  Tung oil,S.America,ex-tank Rot	
+        -  Tallow, Edible, US, fob Gulf
+
+    - In order to obtain Barchart-related data, please download the price risk analytics code repo at the link below and apply the instructions to get economic data (also pasted below)
+
+# Get Barchart economic data using price risk analytics repo: https://github.com/McK-Private/acr-price_risk_analytics/tree/develop/price_risk_analytics)
+
+Execute price_risk_analytics get-economic-data --help to view the options.
+
+A few example commands below:
+price_risk_analytics get-economic-data barchart C --market=CBOT --start=2019-01-01 --end=2020-01-01 --output=./data.csv
+price_risk_analytics get-economic-data dtn QCL --market=NYMEX --start=2019-01-01 --end=2020-01-01 --output=./data.csv
+price_risk_analytics get-economic-data quandl CME_C1 --market=CHRIS --start=2019-01-01 --end=2019-06-01 --output=./data.csv
+
+Data issues - Please contact Market Data Support <mds@barchart.com> for data issues. Please list the following information:
+
 
 - #### Exploratory data analysis
 
