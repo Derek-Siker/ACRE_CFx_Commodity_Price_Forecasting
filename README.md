@@ -45,9 +45,11 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
 
     - In order to obtain Barchart-related data, please download the price risk analytics code repo at the link below and apply the instructions to get economic data (also pasted below)
 
-# Get Barchart economic data using price risk analytics repo: https://github.com/McK-Private/acr-price_risk_analytics/tree/develop/price_risk_analytics)
+# Get Barchart economic data using price risk analytics repo)
+Download the repo here at: https://github.com/McK-Private/acr-price_risk_analytics/tree/develop/price_risk_analytics
 
-Execute price_risk_analytics get-economic-data --help to view the options.
+Once deployed, the following in the command line:
+'price_risk_analytics get-economic-data --help' to view the options.
 
 A few example commands below:
 price_risk_analytics get-economic-data barchart C --market=CBOT --start=2019-01-01 --end=2020-01-01 --output=./data.csv
