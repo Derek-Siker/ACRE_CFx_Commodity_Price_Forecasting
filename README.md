@@ -25,8 +25,7 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
         -  Olive Oil,Spain,Extra Virgin	
         -  Palm oil crude, cif Rotterdam	
         -  Palm oil RBD, Mal, fob	
-        -  Palm oil crude, 
-        -  Indonesia, fob	
+        -  Palm oil crude, Indonesia, fob	
         -  Palm olein RBD, Mal, fob	
         -  Palm olein RBD, Mal, cif Rott	
         -  Palm stearin RBD, Mal fob	
