@@ -57,7 +57,7 @@ price_risk_analytics get-economic-data quandl CME_C1 --market=CHRIS --start=2019
 Data issues - Please contact Market Data Support <mds@barchart.com> for data issues. Please list the following information:
 
 
-# ML Pipeline Technical Approach Summary
+# Technical Summary of ML Pipeline 
 - #### Exploratory data analysis
 
     - Standard pandas profiling reports are provided along with basic summary statistics to inform skew and missingness in the data.
