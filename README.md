@@ -51,9 +51,9 @@ Once deployed, the following in the command line:
 'price_risk_analytics get-economic-data --help' to view the options.
 
 A few example commands below:
-price_risk_analytics get-economic-data barchart C --market=CBOT --start=2019-01-01 --end=2020-01-01 --output=./data.csv
-price_risk_analytics get-economic-data dtn QCL --market=NYMEX --start=2019-01-01 --end=2020-01-01 --output=./data.csv
-price_risk_analytics get-economic-data quandl CME_C1 --market=CHRIS --start=2019-01-01 --end=2019-06-01 --output=./data.csv
+- price_risk_analytics get-economic-data barchart C --market=CBOT --start=2019-01-01 --end=2020-01-01 --output=./data.csv
+- price_risk_analytics get-economic-data dtn QCL --market=NYMEX --start=2019-01-01 --end=2020-01-01 --output=./data.csv
+- price_risk_analytics get-economic-data quandl CME_C1 --market=CHRIS --start=2019-01-01 --end=2019-06-01 --output=./data.csv
 
 Data issues - Please contact Market Data Support <mds@barchart.com> for data issues. Please list the following information:
 
