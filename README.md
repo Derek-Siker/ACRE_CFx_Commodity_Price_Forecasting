@@ -43,7 +43,7 @@ In this project, a number of tree-based regressors are deployed to predict the m
 
     - In order to obtain Barchart-related data, please download the price risk analytics code repo at the link below and apply the instructions to get economic data (also pasted below)
 
-# Get Barchart economic data using price risk analytics repo)
+# Get Barchart economic data using price risk analytics repo
 Download the repo here at: https://github.com/McK-Private/acr-price_risk_analytics/tree/develop/price_risk_analytics
 
 Once deployed, the following in the command line:
