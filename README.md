@@ -2,8 +2,7 @@
 A plug-and-play notebook for commodity price forecasting that uses standard ML Pipeline template and data ingestion methods for features coming from Barchart and Oilworld.
 
 # Introduction
-
-- In this project, a number of tree-based regressors are deployed to predict the monthly price direction and concurrent median spot price of a chosen commodity contract over a select period of time (the client will need to specify the type of contract or averaging method across contracts that should be used). 
+In this project, a number of tree-based regressors are deployed to predict the monthly price direction and concurrent median spot price of a chosen commodity contract over a select period of time (the client will need to specify the type of contract or averaging method across contracts that should be used). 
 
 # Setup instructions
 - #### Working with the notebook
@@ -11,7 +10,7 @@ A plug-and-play notebook for commodity price forecasting that uses standard ML P
     - Before running the code, make sure to first run package import and all helper functions at the bottom of the notebook.
   #### Data compatibility and acquisition
     - This code will work for any market data ingested via Barchart to construct the target feature as well either Barchart or Oilworld physical commodity contract data for input features. 
-    - In order to obtain the data pertaining to Oilworld data please contact XXX. The data should contain a monthly price column with timestamps as well as the following physical 1-month forward contract price provided as either floats or integers: 
+    - In order to obtain Oilworld data extract please contact Karl Tojic (karl_tojic@mckinsey.com). The data should contain a monthly price column with timestamps as well as the following physical 1-month forward contract price provided as either floats or integers: 
         -  Soybean oil, US, fob Gulf	
         -  Soybean oil,U.S.,fob Decatur	
         -  Soybean oil,Dutch, fob ex-mill	
